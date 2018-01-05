@@ -3,7 +3,11 @@
     flask
     ~~~~~
 
-    A microframework based on Werkzeug.  It's extensively documented
+    A microframework based on Werkzeug(Werkzeug是一个WSGI工具库，WSGI的全称是Web Server Gateway Interface，
+    翻译过来就是Web服务器网关接口。 具体的来说，WSGI是一个规范，定义了Web服务器如何与Python应用程序进行交互，使得使用
+    Python写的Web应用程序可以和Web服务器对接起来。werkzeug 不是一个web服务器，也不是一个web框架，而是一个工具包，
+    官方的介绍说是一个 WSGI 工具包，它可以作为一个 Web 框架的底层库，因为它封装好了很多 Web 框架的东西，例如 Request，Response 等等。).  
+    It's extensively documented
     and follows best practice patterns.
 
     :copyright: (c) 2015 by Armin Ronacher.
